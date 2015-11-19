@@ -12,6 +12,7 @@ mongoimport --db reddit --collection redditColl  <  C:\RC_2015-01.json
 ````
 
 ![](http://i.imgur.com/0Bxlv2P.jpg)
+
 *Użycie zasobów komputera poczas importu bazy:*
 
 - *Procesor:*
@@ -40,3 +41,34 @@ To polecenie zlicza rekordy w bazie danych "reddit" z kolekcją danych "redditCo
 db.redditColl.stats()
 ```
 To polecenie pokazuje statystyki kolekcji danych w bazie "reddit". Widzimy między innymi liczbę zliczonych rekordów, rozmiar, średni rozmiar obiektu.
+
+
+
+
+### Import do bazy PostreSQL
+Import do PostgreSQL w wersji 9.4. 
+Wykorzystałem tę samą bazę danych co w przypadku MongoDB. Do zaimprotowania plików .json do bazy danych wykorzystałem narzędznie PGFutter, które znalazłem na GitHubie. 
+```
+https://github.com/lukasmartinelli/pgfutter
+```
+Import rozpocząłem poleceniem:
+```
+pgfutter_windows_amd64.exe --pw "123qq" json "reddit.json"
+```
+Polecenie to uruchamia narzędzie PGFutter. --pw (password) zostało użyte, ponieważ dostęp do PostgreSQL jest możliwy tylko za pomocą hasła (w moim przypadku "123qq"). "json" jest parametrem, który informuje narzędzie o wczytaniu pliku .json.
+
+*Początek importu:*
+
+![]()
+
+*Użycie zasobów komputera podczas importu:*
+
+- *Procesor*
+![]()
+
+- *Pamięć*
+![]()
+
+*Koniec importu:*
+![](http://i.imgur.com/pu1sBEu.png)
+Import trwał 27 minut i 7 sekund.
