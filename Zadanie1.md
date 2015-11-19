@@ -59,15 +59,17 @@ Polecenie to uruchamia narzędzie PGFutter. --pw (password) zostało użyte, pon
 
 *Początek importu:*
 
-![]()
+![](http://i.imgur.com/qpfe8r7.png)
 
 *Użycie zasobów komputera podczas importu:*
 
 - *Procesor*
-![]()
+![](http://i.imgur.com/xRjwvBL.png)
 
 - *Pamięć*
-![]()
+![](http://i.imgur.com/hZGupH2.png)
+
+Dysk w czasie importu został wykorzystywany w różnym stopniu. Na początku było to 50%, potem 100%. Skoki wykorzystywania dysku były przez cały czas importu. Wachały się między 50% a 100%.
 
 *Koniec importu:*
 ![](http://i.imgur.com/pu1sBEu.png)
