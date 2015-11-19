@@ -72,3 +72,31 @@ Polecenie to uruchamia narzędzie PGFutter. --pw (password) zostało użyte, pon
 *Koniec importu:*
 ![](http://i.imgur.com/pu1sBEu.png)
 Import trwał 27 minut i 7 sekund.
+
+*Wyniki PostgreSQL*
+
+Przeprowadziłem zliczanie rekordów w bazie zaimportowanej w PostgreSQL. Włączyłem pomiar czasu poprzez: 
+```
+\timing
+```
+i wpisałem komendę:
+```
+select count(*) from import.reddit;
+```
+Oto wyniki: 
+![](http://i.imgur.com/2zbNqST.jpg)
+
+Jak widać wykonanie zliczania instrukcji trwało aż 149816 ms, czyli ponad 2 minuty.
+
+Zliczonych zostało 53 851 542 rekordów.
+
+
+## Powrównanie wyników MongoDB oraz PostgreSQL
+### Czas importu
+Import bazy danych w MongoDB trwał 26 minut, zaś w PostrgreSQL 27 minut. MongoDB zaimportowało bazę szybciej o 1 minutę niż PostgreSQL.
+
+### Użycie zasobów komputera
+MongoDB podczas importu bazy danych używało 60% zasobów procesora, 97% pamięci oraz 60% dysku. Występowały małe wahania (+/- 5% każdego zasobu). Przy imporcie danych do PostgreSQL wykorzystywano mniej zasobów. Procesor około 50%, pamięć 50%, dysk od 60% do 100%. Wahania były bardzo duże, zużycie skakało od 50% do 100%. 
+
+### Wynik importu
+Zarówno MongoDB jak i PostgreSQL zliczyło tyle samo rekordów - 53 851 542. Jednakże wykonywanie instrukcji zliczających było dużo szybsze w MongoDB, były to zaledwie setki ms, tymczasem w PostgreSQL zliczenie wyników trwało ponad 2 minuty.
