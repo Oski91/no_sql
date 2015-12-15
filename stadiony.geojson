@@ -1,0 +1,612 @@
+{
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Gdynia",
+        "klub": "Arka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.53114604949951,
+          54.49332432102238
+        ]
+      },
+      "_id": "Gdynia"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Gdañsk",
+        "klub": "Lechia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.640451431274414,
+          54.39000395571352
+        ]
+      },
+      "_id": "Gdañsk"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Bytów",
+        "klub": "Bytovia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.481908798217773,
+          54.17667822754032
+        ]
+      },
+      "_id": "Bytów"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Szczecin",
+        "klub": "Pogoñ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.51862573623657,
+          53.43648617113464
+        ]
+      },
+      "_id": "Szczecin"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Chojnice",
+        "klub": "Chojniczanka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.563281655311584,
+          53.697220993017226
+        ]
+      }, 
+      "_id": "Chojnice"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Bydgoszcz",
+        "klub": "Zawisza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.020410537719727,
+          53.14566353022287
+        ]
+      },
+      "_id": "Bydgoszcz"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Poznañ",
+        "klub": "Lech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.857962608337402,
+          52.39778421226003
+        ]
+      },
+      "_id": "Poznañ"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Wroc³aw",
+        "klub": "Œl¹sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.94364309310913,
+          51.141353789457135
+        ]
+      },
+      "_id": "Wroc³aw"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Legnica",
+        "klub": "MiedŸ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.169815063476562,
+          51.203569465222394
+        ]
+      },
+      "_id": "Legnica"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Lubin",
+        "klub": "Zag³êbie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.198192834854126,
+          51.413982774762694
+        ]
+      },
+      "_id": "Lubin"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "G³ogów",
+        "klub": "Chrobry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.09696626663208,
+          51.655958179967506
+        ]
+      },
+      "_id": "G³ogów"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Katowice",
+        "klub": "GKS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.001240730285645,
+          50.27976903079439
+        ]
+      },
+      "_id": "Katowice"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Katowice",
+        "klub": "Rozwój"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.984804153442383,
+          50.23983579105979
+        ]
+      },
+      "_id": "Katowice1"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Gliwice",
+        "klub": "Piast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.695538640022278,
+          50.30667181153402
+        ]
+      },
+      "_id": "Gliwice"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Bielsko-Bia³a",
+        "klub": "Podbeskidzie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.05444502830505,
+          49.81745809676675
+        ]
+      },
+      "_id": "Bielsko"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Zabrze",
+        "klub": "Górnik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.768328428268433,
+          50.29637172862098
+        ]
+      },
+      "_id": "Zabrze"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Sosnowiec",
+        "klub": "Zag³êbie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.103636741638184,
+          50.27736931798545
+        ]
+      },
+      "_id": "Sosnowiec"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Chorzów",
+        "klub": "Ruch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.94461393356323,
+          50.282223469034655
+        ]
+      },
+      "_id": "Chorzów"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Kraków",
+        "klub": "Cracovia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.92042303085327,
+          50.057937796266394
+        ]
+      },
+      "_id": "Kraków"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Kraków",
+        "klub": "Wis³a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9117648601532,
+          50.06371652091328
+        ]
+      },
+      "_id": "Kraków1"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Nowy S¹cz",
+        "klub": "Sandecja"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.704416632652283,
+          49.62067120024831
+        ]
+      },
+      "_id": "NS"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Nieciecza",
+        "klub": "Termalica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.849239826202393,
+          50.15835668882212
+        ]
+      },
+      "_id": "Nieciecza"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Kielce",
+        "klub": "Korona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.625661611557007,
+          50.86022174519984
+        ]
+      },
+      "_id": "Kielce"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Warszawa",
+        "klub": "Legia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.040717363357544,
+          52.22041882532502
+        ]
+      },
+      "_id": "Warszawa"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Siedlce",
+        "klub": "Pogoñ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.298437356948853,
+          52.17859640966102
+        ]
+      },
+      "_id": "Siedlce"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "P³ock",
+        "klub": "Wis³a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.68303143978119,
+          52.561984127334064
+        ]
+      },
+      "_id": "P³ock"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Bia³ystok",
+        "klub": "Jagiellonia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.149244785308838,
+          53.10595429039234
+        ]
+      },
+      "_id": "Bia³ystok"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Suwa³ki",
+        "klub": "Wigry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.915806770324707,
+          54.094146755675546
+        ]
+      },
+      "_id": "Suwa³ki"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Olsztyn",
+        "klub": "Stomil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.50950050354004,
+          53.77307836973948
+        ]
+      },
+      "_id": "Olsztyn"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "£êczna",
+        "klub": "Górnik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.87430226802826,
+          51.30275956676602
+        ]
+      },
+      "_id": "£êczna"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Z¹bki",
+        "klub": "Dolcan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.122009754180908,
+          52.29271281698856
+        ]
+      },
+      "_id": "Z¹bki"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Be³chatów",
+        "klub": "GKS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.38166379928589,
+          51.36584589044035
+        ]
+      },
+      "_id": "Be³chatów"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Kluczbork",
+        "klub": "MKS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.227326869964596,
+          50.96900166990464
+        ]
+      },
+      "_id": "Kluczbork"
+    }
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#0000ff",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Grudzi¹dz",
+        "klub ": "Olimpia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.760201334953308,
+          53.48795616618548
+        ]
+      },
+      "_id": "Grudzi¹dz"
+    }
