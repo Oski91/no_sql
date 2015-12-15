@@ -102,3 +102,8 @@ MongoDB podczas importu bazy danych używało 60% zasobów procesora, 97% pamię
 
 ### Wynik importu
 Zarówno MongoDB jak i PostgreSQL zliczyło tyle samo rekordów - 53 851 542. Jednakże wykonywanie instrukcji zliczających było dużo szybsze w MongoDB, były to zaledwie setki ms, tymczasem w PostgreSQL zliczenie wyników trwało ponad 2 minuty.
+
+
+
+
+## GeoJson
