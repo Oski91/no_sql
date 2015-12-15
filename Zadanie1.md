@@ -110,3 +110,24 @@ Zarówno MongoDB jak i PostgreSQL zliczyło tyle samo rekordów - 53 851 542. Je
 Do utworzenia mapy GeoJson wykorzystałem narzędzie, które znalazłem pod adresem:
 http://geojson.io.
 Wykonałem mapkę 34 stadionów w Polsce, na których swoje mecze rozgrywają lokalne drużyny.  [Mapka Stadionów](https://github.com/Oski91/no_sql/blob/master/stadiony.geojson). Kolorem żółtym oznaczyłem dużyny występujące w Ekstraklasie, a kolorem niebieskim drużyny występujące w pierwsze lidze.
+
+Przykładowy rekord wygląda następująco: 
+```
+{
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ffff00",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "miasto": "Gliwice",
+        "klub": "Piast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.695538640022278,
+          50.30667181153402
+        ]
+      }
+    }
+    ```
