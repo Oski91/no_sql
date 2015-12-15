@@ -25,7 +25,7 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Gdañsk",
+        "miasto": "Gdansk",
         "klub": "Lechia"
 	
       },
@@ -43,7 +43,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Bytów",
+        "miasto": "Bytow",
         "klub": "Bytovia"
 
       },
@@ -62,7 +62,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Szczecin",
-        "klub": "Pogoñ"
+        "klub": "Pogon"
 
       },
       "geometry": {
@@ -115,7 +115,7 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Poznañ",
+        "miasto": "Poznan",
         "klub": "Lech"
       },
       "geometry": {
@@ -132,8 +132,8 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Wroc³aw",
-        "klub": "Œl¹sk"
+        "miasto": "Wroclaw",
+        "klub": "Slask"
       },
       "geometry": {
         "type": "Point",
@@ -150,7 +150,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Legnica",
-        "klub": "MiedŸ"
+        "klub": "Miedz"
       },
       "geometry": {
         "type": "Point",
@@ -167,7 +167,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Lubin",
-        "klub": "Zag³êbie"
+        "klub": "Zaglebie"
       },
       "geometry": {
         "type": "Point",
@@ -183,7 +183,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "G³ogów",
+        "miasto": "Glogow",
         "klub": "Chrobry"
       },
       "geometry": {
@@ -218,7 +218,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Katowice",
-        "klub": "Rozwój"
+        "klub": "Rozwoj"
       },
       "geometry": {
         "type": "Point",
@@ -251,7 +251,7 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Bielsko-Bia³a",
+        "miasto": "Bielsko-Biala",
         "klub": "Podbeskidzie"
       },
       "geometry": {
@@ -269,7 +269,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Zabrze",
-        "klub": "Górnik"
+        "klub": "Gornik"
       },
       "geometry": {
         "type": "Point",
@@ -286,7 +286,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Sosnowiec",
-        "klub": "Zag³êbie"
+        "klub": "Zaglebie"
       },
       "geometry": {
         "type": "Point",
@@ -302,7 +302,7 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Chorzów",
+        "miasto": "Chorzow",
         "klub": "Ruch"
       },
       "geometry": {
@@ -319,7 +319,7 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Kraków",
+        "miasto": "Krakow",
         "klub": "Cracovia"
       },
       "geometry": {
@@ -336,8 +336,8 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Kraków",
-        "klub": "Wis³a"
+        "miasto": "Krakow",
+        "klub": "Wisla"
       },
       "geometry": {
         "type": "Point",
@@ -353,7 +353,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Nowy S¹cz",
+        "miasto": "Nowy Sacz",
         "klub": "Sandecja"
       },
       "geometry": {
@@ -422,7 +422,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Siedlce",
-        "klub": "Pogoñ"
+        "klub": "Pogon"
       },
       "geometry": {
         "type": "Point",
@@ -438,8 +438,8 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "P³ock",
-        "klub": "Wis³a"
+        "miasto": "Plock",
+        "klub": "Wisla"
       },
       "geometry": {
         "type": "Point",
@@ -455,7 +455,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Bia³ystok",
+        "miasto": "Bialystok",
         "klub": "Jagiellonia"
       },
       "geometry": {
@@ -472,7 +472,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Suwa³ki",
+        "miasto": "Suwalki",
         "klub": "Wigry"
       },
       "geometry": {
@@ -506,8 +506,8 @@
         "marker-color": "#ffff00",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "£êczna",
-        "klub": "Górnik"
+        "miasto": "Leczna",
+        "klub": "Gornik"
       },
       "geometry": {
         "type": "Point",
@@ -523,7 +523,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Z¹bki",
+        "miasto": "Zabki",
         "klub": "Dolcan"
       },
       "geometry": {
@@ -540,7 +540,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Be³chatów",
+        "miasto": "Belchatow",
         "klub": "GKS"
       },
       "geometry": {
@@ -574,7 +574,7 @@
         "marker-color": "#0000ff",
         "marker-size": "medium",
         "marker-symbol": "",
-        "miasto": "Grudzi¹dz",
+        "miasto": "Grudziadz",
         "klub ": "Olimpia"
       },
       "geometry": {
