@@ -8,8 +8,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Gdynia",
-        "klub": "Arka",
-		"_id": "Gdynia"
+        "klub": "Arka"
+		
       },
       "geometry": {
         "type": "Point",
@@ -26,8 +26,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Gdañsk",
-        "klub": "Lechia",
-		"_id": "Gdañsk"
+        "klub": "Lechia"
+	
       },
       "geometry": {
         "type": "Point",
@@ -44,8 +44,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Bytów",
-        "klub": "Bytovia",
-		      "_id": "Bytów"
+        "klub": "Bytovia"
+
       },
       "geometry": {
         "type": "Point",
@@ -62,8 +62,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Szczecin",
-        "klub": "Pogoñ",
-		      "_id": "Szczecin"
+        "klub": "Pogoñ"
+
       },
       "geometry": {
         "type": "Point",
@@ -80,8 +80,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Chojnice",
-        "klub": "Chojniczanka",
-		      "_id": "Chojnice"
+        "klub": "Chojniczanka"
+
       },
       "geometry": {
         "type": "Point",
@@ -98,8 +98,8 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Bydgoszcz",
-        "klub": "Zawisza",
-		      "_id": "Bydgoszcz"
+        "klub": "Zawisza"
+
       },
       "geometry": {
         "type": "Point",
@@ -116,8 +116,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Poznañ",
-        "klub": "Lech",
-		      "_id": "Poznañ"
+        "klub": "Lech"
       },
       "geometry": {
         "type": "Point",
@@ -134,8 +133,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Wroc³aw",
-        "klub": "Œl¹sk",
-		      "_id": "Wroc³aw"
+        "klub": "Œl¹sk"
       },
       "geometry": {
         "type": "Point",
@@ -152,8 +150,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Legnica",
-        "klub": "MiedŸ",
-		      "_id": "Legnica"
+        "klub": "MiedŸ"
       },
       "geometry": {
         "type": "Point",
@@ -170,8 +167,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Lubin",
-        "klub": "Zag³êbie",
-		      "_id": "Lubin"
+        "klub": "Zag³êbie"
       },
       "geometry": {
         "type": "Point",
@@ -188,8 +184,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "G³ogów",
-        "klub": "Chrobry",
-		      "_id": "G³ogów"
+        "klub": "Chrobry"
       },
       "geometry": {
         "type": "Point",
@@ -206,8 +201,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Katowice",
-        "klub": "GKS",
-		      "_id": "Katowice"
+        "klub": "GKS"
       },
       "geometry": {
         "type": "Point",
@@ -224,8 +218,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Katowice",
-        "klub": "Rozwój",
-		      "_id": "Katowice1"
+        "klub": "Rozwój"
       },
       "geometry": {
         "type": "Point",
@@ -242,8 +235,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Gliwice",
-        "klub": "Piast",
-		      "_id": "Gliwice"
+        "klub": "Piast"
       },
       "geometry": {
         "type": "Point",
@@ -260,8 +252,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Bielsko-Bia³a",
-        "klub": "Podbeskidzie",
-		      "_id": "Bielsko"
+        "klub": "Podbeskidzie"
       },
       "geometry": {
         "type": "Point",
@@ -278,8 +269,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Zabrze",
-        "klub": "Górnik",
-		      "_id": "Zabrze"
+        "klub": "Górnik"
       },
       "geometry": {
         "type": "Point",
@@ -296,8 +286,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Sosnowiec",
-        "klub": "Zag³êbie",
-		      "_id": "Sosnowiec"
+        "klub": "Zag³êbie"
       },
       "geometry": {
         "type": "Point",
@@ -314,8 +303,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Chorzów",
-        "klub": "Ruch",
-		      "_id": "Chorzów"
+        "klub": "Ruch"
       },
       "geometry": {
         "type": "Point",
@@ -332,8 +320,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Kraków",
-        "klub": "Cracovia",
-		      "_id": "Kraków"
+        "klub": "Cracovia"
       },
       "geometry": {
         "type": "Point",
@@ -350,8 +337,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Kraków",
-        "klub": "Wis³a",
-		      "_id": "Kraków1"
+        "klub": "Wis³a"
       },
       "geometry": {
         "type": "Point",
@@ -368,8 +354,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Nowy S¹cz",
-        "klub": "Sandecja",
-		      "_id": "NS"
+        "klub": "Sandecja"
       },
       "geometry": {
         "type": "Point",
@@ -386,8 +371,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Nieciecza",
-        "klub": "Termalica",
-		      "_id": "Nieciecza"
+        "klub": "Termalica"
       },
       "geometry": {
         "type": "Point",
@@ -404,8 +388,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Kielce",
-        "klub": "Korona",
-		      "_id": "Kielce"
+        "klub": "Korona"
       },
       "geometry": {
         "type": "Point",
@@ -422,8 +405,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Warszawa",
-        "klub": "Legia",
-		      "_id": "Warszawa"
+        "klub": "Legia"
       },
       "geometry": {
         "type": "Point",
@@ -440,8 +422,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Siedlce",
-        "klub": "Pogoñ",
-		      "_id": "Siedlce"
+        "klub": "Pogoñ"
       },
       "geometry": {
         "type": "Point",
@@ -458,8 +439,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "P³ock",
-        "klub": "Wis³a",
-		      "_id": "P³ock"
+        "klub": "Wis³a"
       },
       "geometry": {
         "type": "Point",
@@ -476,8 +456,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Bia³ystok",
-        "klub": "Jagiellonia",
-		      "_id": "Bia³ystok"
+        "klub": "Jagiellonia"
       },
       "geometry": {
         "type": "Point",
@@ -494,8 +473,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Suwa³ki",
-        "klub": "Wigry",
-		      "_id": "Suwa³ki"
+        "klub": "Wigry"
       },
       "geometry": {
         "type": "Point",
@@ -512,8 +490,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Olsztyn",
-        "klub": "Stomil",
-		      "_id": "Olsztyn"
+        "klub": "Stomil"
       },
       "geometry": {
         "type": "Point",
@@ -530,8 +507,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "£êczna",
-        "klub": "Górnik",
-		      "_id": "£êczna"
+        "klub": "Górnik"
       },
       "geometry": {
         "type": "Point",
@@ -548,8 +524,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Z¹bki",
-        "klub": "Dolcan",
-		      "_id": "Z¹bki"
+        "klub": "Dolcan"
       },
       "geometry": {
         "type": "Point",
@@ -566,8 +541,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Be³chatów",
-        "klub": "GKS",
-		      "_id": "Be³chatów"
+        "klub": "GKS"
       },
       "geometry": {
         "type": "Point",
@@ -584,8 +558,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Kluczbork",
-        "klub": "MKS",
-		      "_id": "Kluczbork"
+        "klub": "MKS"
       },
       "geometry": {
         "type": "Point",
@@ -602,8 +575,7 @@
         "marker-size": "medium",
         "marker-symbol": "",
         "miasto": "Grudzi¹dz",
-        "klub ": "Olimpia",
-		      "_id": "Grudzi¹dz"
+        "klub ": "Olimpia"
       },
       "geometry": {
         "type": "Point",
