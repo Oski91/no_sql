@@ -1,6 +1,6 @@
 # Zadanie 1
 Zadanie wykonałem na swoim komputerze stacjonarnym. Parametry komputera znajduj
- się w pliku README.md.
+ się w pliku [README.md](https://github.com/Oski91/no_sql/blob/master/README.md).
  
 ## Import bazy danych do MongoDB i PostgreSQL
  Do swojego zadania wybrałem bazę komentarzy z serwisu Reddit. Baza spakowana miała rozmiar 5.07 GB, a po rozpakowaniu 29.4 GB.
