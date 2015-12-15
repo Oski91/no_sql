@@ -1,4 +1,4 @@
-# Zadanie 1
+# Zadanie 1 - EDA
 Zadanie wykonałem na swoim komputerze stacjonarnym. Parametry komputera znajduj
  się w pliku [README.md](https://github.com/Oski91/no_sql/blob/master/README.md).
  
