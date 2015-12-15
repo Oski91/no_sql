@@ -136,4 +136,4 @@ Przykładowy rekord wygląda następująco:
     ```
     mongoimport -d GeoTest -c stadiony < C:\stadiony2.geojson
     ```
-    ![](http://i.imgur.com/YzHwKCk.jpg)
+![](http://i.imgur.com/YzHwKCk.jpg)
