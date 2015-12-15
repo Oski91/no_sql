@@ -132,3 +132,8 @@ Przykładowy rekord wygląda następująco:
     }
 
  ```
+    Bazę danych zaimportowałem do MongoDB poleceniem:
+    ```
+    mongoimport -d GeoTest -c stadiony < C:\stadiony2.geojson
+    ```
+    ![](http://i.imgur.com/YzHwKCk.jpg)
