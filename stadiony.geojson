@@ -1,3 +1,4 @@
+{"type":"FeatureCollection","features":[
 {
       "type": "Feature",
       "properties": {
@@ -15,7 +16,7 @@
         ]
       },
       "_id": "Gdynia"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -33,7 +34,7 @@
         ]
       },
       "_id": "Gdañsk"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -51,7 +52,7 @@
         ]
       },
       "_id": "Bytów"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -69,7 +70,7 @@
         ]
       },
       "_id": "Szczecin"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -87,7 +88,7 @@
         ]
       }, 
       "_id": "Chojnice"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -105,7 +106,7 @@
         ]
       },
       "_id": "Bydgoszcz"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -123,7 +124,7 @@
         ]
       },
       "_id": "Poznañ"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -141,7 +142,7 @@
         ]
       },
       "_id": "Wroc³aw"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -159,7 +160,7 @@
         ]
       },
       "_id": "Legnica"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -177,7 +178,7 @@
         ]
       },
       "_id": "Lubin"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -195,7 +196,7 @@
         ]
       },
       "_id": "G³ogów"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -213,7 +214,7 @@
         ]
       },
       "_id": "Katowice"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -231,7 +232,7 @@
         ]
       },
       "_id": "Katowice1"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -249,7 +250,7 @@
         ]
       },
       "_id": "Gliwice"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -267,7 +268,7 @@
         ]
       },
       "_id": "Bielsko"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -285,7 +286,7 @@
         ]
       },
       "_id": "Zabrze"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -303,7 +304,7 @@
         ]
       },
       "_id": "Sosnowiec"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -321,7 +322,7 @@
         ]
       },
       "_id": "Chorzów"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -339,7 +340,7 @@
         ]
       },
       "_id": "Kraków"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -357,7 +358,7 @@
         ]
       },
       "_id": "Kraków1"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -375,7 +376,7 @@
         ]
       },
       "_id": "NS"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -393,7 +394,7 @@
         ]
       },
       "_id": "Nieciecza"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -411,7 +412,7 @@
         ]
       },
       "_id": "Kielce"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -429,7 +430,7 @@
         ]
       },
       "_id": "Warszawa"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -447,7 +448,7 @@
         ]
       },
       "_id": "Siedlce"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -465,7 +466,7 @@
         ]
       },
       "_id": "P³ock"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -483,7 +484,7 @@
         ]
       },
       "_id": "Bia³ystok"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -501,7 +502,7 @@
         ]
       },
       "_id": "Suwa³ki"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -519,7 +520,7 @@
         ]
       },
       "_id": "Olsztyn"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -537,7 +538,7 @@
         ]
       },
       "_id": "£êczna"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -555,7 +556,7 @@
         ]
       },
       "_id": "Z¹bki"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -573,7 +574,7 @@
         ]
       },
       "_id": "Be³chatów"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -591,7 +592,7 @@
         ]
       },
       "_id": "Kluczbork"
-    }
+    },
     {
       "type": "Feature",
       "properties": {
@@ -609,4 +610,5 @@
         ]
       },
       "_id": "Grudzi¹dz"
+	  ]}
     }
