@@ -1,6 +1,10 @@
-{
-"type": "FeatureCollection", 
-"features":[
+{ "type": "Circle",
+   "coordinates": [ 100.0, 0.0 ],
+   "radius": 0.5,
+   "properties": {
+          "radius_units": "km"
+   }
+}
 { "type" : "Feature", 
 "properties" : { 
 "marker-color" : "#ffff00", 
@@ -92,6 +96,4 @@
     
   } 
   
-}
-]
 }
