@@ -163,3 +163,6 @@ db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 19.4561, 51.7686]
 ```
 
 Wyniki wyglądają następująco : [Mapka](https://github.com/Oski91/no_sql/blob/master/100milLodz.geojson)
+
+### Polygon
+Stworzyłem kształt wojwództwa pomorskiego [Pomorskie](https://github.com/Oski91/no_sql/blob/master/polygonPomorskie.geojson)
