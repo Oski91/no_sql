@@ -1,8 +1,8 @@
 { "type": "Circle",
-   "coordinates": [ 100.0, 0.0 ],
-   "radius": 0.5,
+   "coordinates": [ 21.020, 52.259 ],
+   "radius": 100,
    "properties": {
-          "radius_units": "km"
+          "radius_units": "miles"
    }
 }
 { "type" : "Feature", 
