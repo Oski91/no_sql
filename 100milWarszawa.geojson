@@ -5,6 +5,9 @@
           "radius_units": "miles"
    }
 }
+{
+  "type": "FeatureCollection",
+  "features": [
 { "type" : "Feature", 
 "properties" : { 
 "marker-color" : "#ffff00", 
@@ -95,5 +98,6 @@
       ] 
     
   } 
-  
+}
+]
 }
