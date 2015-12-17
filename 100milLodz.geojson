@@ -1,10 +1,10 @@
 {
 "type": "FeatureCollection", 
 "features":[
-{ "_id" : ObjectId("5672d410a1d0f12300c804ce"), "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Kluczbork", "klub" : "MKS" }, "geometry" : { "type" : "Point", "coordinates" : [ 18.227326869964596, 50.96900166990464 ] } },
-{ "_id" : ObjectId("5672d410a1d0f12300c804c3"), "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Kielce", "klub" : "Korona" }, "geometry" : { "type" : "Point", "coordinates" : [ 20.625661611557007, 50.86022174519984 ] } },
-{ "_id" : ObjectId("5672d410a1d0f12300c804cd"), "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Be�chat�w", "klub" : "GKS" }, "geometry" : { "type" : "Point", "coordinates" : [ 19.38166379928589, 51.36584589044035 ] } },
-{ "_id" : ObjectId("5672d410a1d0f12300c804c6"), "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "P�ock", "klub" : "Wis�a" }, "geometry" : { "type" : "Point", "coordinates" : [ 19.68303143978119, 52.561984127334064 ] } },
-{ "_id" : ObjectId("5672d410a1d0f12300c804cb"), "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Warszawa", "klub" : "Legia" }, "geometry" : { "type" : "Point", "coordinates" : [ 21.040717363357544, 52.22041882532502 ] } },
-{ "_id" : ObjectId("5672d410a1d0f12300c804cc"), "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Z�bki", "klub" : "Dolcan" }, "geometry" : { "type" : "Point", "coordinates" : [ 21.122009754180908, 52.29271281698856 ] } }
+{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Kluczbork", "klub" : "MKS" }, "geometry" : { "type" : "Point", "coordinates" : [ 18.227326869964596, 50.96900166990464 ] } },
+{ "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Kielce", "klub" : "Korona" }, "geometry" : { "type" : "Point", "coordinates" : [ 20.625661611557007, 50.86022174519984 ] } },
+{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Belchatow", "klub" : "GKS" }, "geometry" : { "type" : "Point", "coordinates" : [ 19.38166379928589, 51.36584589044035 ] } },
+{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Plock", "klub" : "Wisla" }, "geometry" : { "type" : "Point", "coordinates" : [ 19.68303143978119, 52.561984127334064 ] } },
+{ "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Warszawa", "klub" : "Legia" }, "geometry" : { "type" : "Point", "coordinates" : [ 21.040717363357544, 52.22041882532502 ] } },
+{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Zabki", "klub" : "Dolcan" }, "geometry" : { "type" : "Point", "coordinates" : [ 21.122009754180908, 52.29271281698856 ] } }
 ]}
