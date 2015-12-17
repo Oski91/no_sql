@@ -775,3 +775,6 @@ coordinates: [
  ```
  
  Wyniki prezentują się następująco: [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
+
+
+Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta [Mapka]()
