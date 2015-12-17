@@ -90,7 +90,6 @@
       52.17859640966102 
       ]
   } 
-},
-{ "type": "Circle", "coordinates": [ 21.020, 52.259 ], "radius": 0.5, "properties": { "radius_units": "km" } }
+}
 ]
 }
