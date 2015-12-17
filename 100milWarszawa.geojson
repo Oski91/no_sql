@@ -8,7 +8,7 @@
 "marker-symbol" : "", 
 "miasto" : "Kielce", 
 "klub" : "Korona" }, 
-"loc" : { 
+"geometry" : { 
 "type" : "Point", 
 "coordinates" : [ 
 20.625661611557007, 
@@ -23,7 +23,7 @@
   "marker-symbol" : "", 
   "miasto" : "Belchatow", 
   "klub" : "GKS" }, 
-  "loc" : { 
+  "geometry" : { 
     "type" : "Point", 
     "coordinates" : [ 
       19.38166379928589,
@@ -38,7 +38,7 @@
   "marker-symbol" : "", 
   "miasto" : "Plock", 
   "klub" : "Wisla" }, 
-  "loc" : { 
+  "geometry" : { 
     "type" : "Point", 
     "coordinates" : [ 
       19.68303143978119, 
@@ -53,7 +53,7 @@
   "marker-symbol" : "",
   "miasto" : "Warszawa", 
   "klub" : "Legia" }, 
-  "loc" : { 
+  "geometry" : { 
     "type" : "Point", 
     "coordinates" : [
       21.040717363357544, 
@@ -68,7 +68,7 @@
   "marker-symbol" : "", 
   "miasto" : "Zabki", 
   "klub" : "Dolcan" }, 
-  "loc" : { 
+  "geometry" : { 
     "type" : "Point", 
     "coordinates" : [ 
       21.122009754180908, 
@@ -83,7 +83,7 @@
   "marker-symbol" : "", 
   "miasto" : "Siedlce", 
   "klub" : "Pogon" }, 
-  "loc" : { 
+  "geometry" : { 
     "type" : "Point", 
     "coordinates" : [ 
       22.298437356948853, 
