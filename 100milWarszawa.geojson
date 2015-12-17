@@ -16,9 +16,82 @@
 ] 
 } 
 },
-{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Be�chat�w", "klub" : "GKS" }, "loc" : { "type" : "Point", "coordinates" : [ 19.38166379928589, 51.36584589044035 ] } },
-{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "P�ock", "klub" : "Wis�a" }, "loc" : { "type" : "Point", "coordinates" : [ 19.68303143978119, 52.561984127334064 ] } },
-{ "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Warszawa", "klub" : "Legia" }, "loc" : { "type" : "Point", "coordinates" : [ 21.040717363357544, 52.22041882532502 ] } },
-{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Z�bki", "klub" : "Dolcan" }, "loc" : { "type" : "Point", "coordinates" : [ 21.122009754180908, 52.29271281698856 ] } },
-{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Siedlce", "klub" : "Pogo�" }, "loc" : { "type" : "Point", "coordinates" : [ 22.298437356948853, 52.17859640966102 ] } }
-]}
+{ "type" : "Feature", 
+"properties" : { 
+  "marker-color" : "#0000ff", 
+  "marker-size" : "medium", 
+  "marker-symbol" : "", 
+  "miasto" : "Belchatow", 
+  "klub" : "GKS" }, 
+  "loc" : { 
+    "type" : "Point", 
+    "coordinates" : [ 
+      19.38166379928589,
+      51.36584589044035
+      ] 
+  } 
+},
+{ "type" : "Feature", 
+"properties" : { 
+  "marker-color" : "#0000ff", 
+  "marker-size" : "medium", 
+  "marker-symbol" : "", 
+  "miasto" : "Plock", 
+  "klub" : "Wisla" }, 
+  "loc" : { 
+    "type" : "Point", 
+    "coordinates" : [ 
+      19.68303143978119, 
+      52.561984127334064 
+      ] 
+  } 
+},
+{ "type" : "Feature", 
+"properties" : { 
+  "marker-color" : "#ffff00", 
+  "marker-size" : "medium", 
+  "marker-symbol" : "",
+  "miasto" : "Warszawa", 
+  "klub" : "Legia" }, 
+  "loc" : { 
+    "type" : "Point", 
+    "coordinates" : [
+      21.040717363357544, 
+      52.22041882532502 
+      ] 
+  }
+      },
+{ "type" : "Feature", 
+"properties" : { 
+  "marker-color" : "#0000ff", 
+  "marker-size" : "medium", 
+  "marker-symbol" : "", 
+  "miasto" : "Zabki", 
+  "klub" : "Dolcan" }, 
+  "loc" : { 
+    "type" : "Point", 
+    "coordinates" : [ 
+      21.122009754180908, 
+      52.29271281698856 
+      ] 
+  } 
+},
+{ "type" : "Feature", 
+"properties" : { 
+  "marker-color" : "#0000ff", 
+  "marker-size" : "medium", 
+  "marker-symbol" : "", 
+  "miasto" : "Siedlce", 
+  "klub" : "Pogon" }, 
+  "loc" : { 
+    "type" : "Point", 
+    "coordinates" : [ 
+      22.298437356948853, 
+      52.17859640966102 
+      ] 
+    
+  } 
+  
+}
+]
+}
