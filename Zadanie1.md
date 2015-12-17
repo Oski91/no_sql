@@ -111,30 +111,46 @@ Do utworzenia mapy GeoJson wykorzystałem narzędzie, które znalazłem pod adre
 http://geojson.io.
 Wykonałem mapkę 34 stadionów w Polsce, na których swoje mecze rozgrywają lokalne drużyny.  [Mapka Stadionów](https://github.com/Oski91/no_sql/blob/master/stadiony.geojson). Kolorem żółtym oznaczyłem dużyny występujące w Ekstraklasie, a kolorem niebieskim drużyny występujące w pierwsze lidze.
 
-Przykładowy rekord wygląda następująco: 
+Bazę danych zaimportowałem do MongoDB poleceniem:
+```
+    mongoimport -c stadiony5 < C:\stadiony.geojson
+```
+
+Przykładowy rekord wygląda następująco. Sprawdziem to poleceniem:
+
+```
+db.stadiony5.findOne()
+```
+
+Rekord: 
 ```
 {
-      "type": "Feature",
-      "properties": {
-        "marker-color": "#ffff00",
-        "marker-size": "medium",
-        "marker-symbol": "",
-        "miasto": "Gliwice",
-        "klub": "Piast"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.695538640022278,
-          50.30667181153402
-        ]
-      }
-    }
+        "_id" : ObjectId("5672d410a1d0f12300c804af"),
+        "type" : "Feature",
+        "properties" : {
+                "marker-color" : "#0000ff",
+                "marker-size" : "medium",
+                "marker-symbol" : "",
+                "miasto" : "Gdynia",
+                "klub" : "Arka"
+        },
+        "loc" : {
+                "type" : "Point",
+                "coordinates" : [
+                        18.53114604949951,
+                        54.49332432102238
+                ]
+        }
+}
+```
 
- ```
-    Bazę danych zaimportowałem do MongoDB poleceniem:
-    ```
-    mongoimport -d GeoTest -c stadiony < C:\stadiony2.geojson
-    ```
-Zrzut ekranu z MongoDB:
-![](http://i.imgur.com/YzHwKCk.jpg)
+Dodałem geo-indexy poleceniem: 
+```
+db.stadiony5.ensureIndex({loc : "2dsphere"})
+```
+
+Załóżmy, że do Warszawy przyjeżdża osoba zza granicy i chce obejrzeć mecz ligi polskiej. Dzięki poleceniu: 
+```
+db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 100 / 3963.2 ] } } } )
+```
+możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
