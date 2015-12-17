@@ -156,13 +156,6 @@ db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 
 możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
 Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
 
-Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem miasto Łódź.
-```
-db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 19.4561, 51.7686], 100 / 3963.2 ] } } } )
-```
-
-Wyniki wyglądają następująco : [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
-
 
 Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem miasto Łódź.
 ```
