@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection", 
 "features":[
-{ "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Gda�sk", "klub" : "Lechia" }, "loc" : { "type" : "Point", "coordinates" : [ 18.640451431274414, 54.39000395571352 ], } }
-{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Gdynia", "klub" : "Arka" }, "loc" : { "type" : "Point", "coordinates" : [ 18.53114604949951, 54.49332432102238 ] } }
+{ "type" : "Feature", "properties" : { "marker-color" : "#ffff00", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Gdansk", "klub" : "Lechia" }, "geometry" : { "type" : "Point", "coordinates" : [ 18.640451431274414, 54.39000395571352 ], } }
+{ "type" : "Feature", "properties" : { "marker-color" : "#0000ff", "marker-size" : "medium", "marker-symbol" : "", "miasto" : "Gdynia", "klub" : "Arka" }, "geometry" : { "type" : "Point", "coordinates" : [ 18.53114604949951, 54.49332432102238 ] } }
 ]}
