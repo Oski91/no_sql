@@ -773,3 +773,5 @@ coordinates: [
               54.56250772767092
             ]]]}}}})
  ```
+ 
+ Wyniki prezentują się następująco: [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
