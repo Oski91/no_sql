@@ -102,7 +102,7 @@ Wykonałem mapkę 34 stadionów w Polsce, na których swoje mecze rozgrywają lo
 
 Bazę danych zaimportowałem do MongoDB poleceniem:
 ```
-    mongoimport -c stadiony5 < C:\stadiony.geojson
+    mongoimport -c stadiony5 < C:\stadiony.json
 ```
 
 Przykładowy rekord wygląda następująco. Sprawdziem to poleceniem:
@@ -170,3 +170,8 @@ coordinates: [ [ [ 16.72119140625, 54.56250772767092], [16.7431640625, 54.482804
 Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta [Mapka](https://github.com/Oski91/no_sql/blob/master/polygonTrojmiasto.geojson)
 
 Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.geojson)
+
+
+### Line-String
+
+TODO
