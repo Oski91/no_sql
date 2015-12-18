@@ -137,6 +137,7 @@ Dodałem geo-indexy poleceniem:
 ```
 db.stadiony5.ensureIndex({loc : "2dsphere"})
 ```
+### Point
 
 Załóżmy, że do Warszawy przyjeżdża osoba zza granicy i chce obejrzeć mecz ligi polskiej. Dzięki poleceniu: 
 ```
