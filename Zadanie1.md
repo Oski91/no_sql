@@ -176,4 +176,4 @@ Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.ge
 
 ### LineString
 
-Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki Wisła.
+Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki [Wisła](https://github.com/Oski91/no_sql/blob/master/Wisla.geojson).
