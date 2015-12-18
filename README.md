@@ -11,7 +11,7 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 
 
 # Parametry Komputera 
-|                      |                                            |
+|                      |                  Parametry                 |
 |----------------------|--------------------------------------------|
 |System Operacyjny     | Windows 10 Pro x64                         |
 |Procesor              | Intel Core i5-4460 3.20 GHz, 4 rdzenie     |
