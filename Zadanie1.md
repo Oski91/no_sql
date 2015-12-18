@@ -106,7 +106,7 @@ Bazę danych zaimportowałem do MongoDB poleceniem:
     mongoimport -c stadiony5 < C:\stadiony.json
 ```
 
-Przykładowy rekord wygląda następująco. Sprawdziem to poleceniem:
+Przykładowy rekord wygląda następująco. Sprawdziłem to poleceniem:
 
 ```javascript
 db.stadiony5.findOne()
