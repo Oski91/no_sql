@@ -1,5 +1,5 @@
 # Zadanie 1 - EDA
-Zadanie wykonałem na swoim komputerze stacjonarnym. Parametry komputera znajduj
+Zadanie wykonałem na swoim komputerze stacjonarnym. Parametry komputera znajduja
  się w pliku [README.md](https://github.com/Oski91/no_sql/blob/master/README.md).
  
 ## Import bazy danych do MongoDB i PostgreSQL
