@@ -6,10 +6,10 @@ Zadanie wykonałem na swoim komputerze stacjonarnym. Parametry komputera znajduj
  Do swojego zadania wybrałem bazę komentarzy z serwisu Reddit. Baza spakowana miała rozmiar 5.07 GB, a po rozpakowaniu 29.4 GB.
  
 ### Import do MongoDB
- Po skonfugurowaniu MongoDB przystąpiłem do importu bazy danych. Bazą był plik z plikami .json. Polecenie, którego użyłem do importu: 
- ```
+ Po skonfugurowaniu MongoDB przystąpiłem do importu bazy danych. Bazą był plik z plikami .json. Polecenie, którego użyłem do importu:
+ ```javascript
 mongoimport --db reddit --collection redditColl  <  C:\RC_2015-01.json 
-````
+```
 
 *Użycie zasobów komputera poczas importu bazy:*
 
@@ -28,11 +28,11 @@ Importowanie bazy rozpoczęło się o godzinie 17:01, a zakończyło o godzinie 
 
 Na powyższym zrzucie ekranu widać, że baza danych "reddi" została zaimportowana do MongoDB. Zaimportowanych zostało 53 851 542 rekordy, które zajmują 45.932 GB. 
 Statystyki te uzyskałem wykonując polecenia: 
-```
+```javascript
 db.reddiColl.count()
 ``` 
 To polecenie zlicza rekordy w bazie danych "reddit" z kolekcją danych "redditColl".
-```
+```javascript
 db.redditColl.stats()
 ```
 To polecenie pokazuje statystyki kolekcji danych w bazie "reddit". Widzimy między innymi liczbę zliczonych rekordów, rozmiar, średni rozmiar obiektu.
@@ -43,11 +43,11 @@ To polecenie pokazuje statystyki kolekcji danych w bazie "reddit". Widzimy międ
 ### Import do bazy PostreSQL
 Import do PostgreSQL w wersji 9.4. 
 Wykorzystałem tę samą bazę danych co w przypadku MongoDB. Do zaimprotowania plików .json do bazy danych wykorzystałem narzędznie PGFutter, które znalazłem na GitHubie. 
-```
+```javascript
 https://github.com/lukasmartinelli/pgfutter
 ```
 Import rozpocząłem poleceniem:
-```
+```javascript
 pgfutter_windows_amd64.exe --pw "123qq" json "reddit.json"
 ```
 Polecenie to uruchamia narzędzie PGFutter. --pw (password) zostało użyte, ponieważ dostęp do PostgreSQL jest możliwy tylko za pomocą hasła (w moim przypadku "123qq"). "json" jest parametrem, który informuje narzędzie o wczytaniu pliku .json.
