@@ -67,11 +67,11 @@ Import trwał 27 minut i 7 sekund.
 *Wyniki PostgreSQL*
 
 Przeprowadziłem zliczanie rekordów w bazie zaimportowanej w PostgreSQL. Włączyłem pomiar czasu poprzez: 
-```
+```javascript
 \timing
 ```
 i wpisałem komendę:
-```
+```javascript
 select count(*) from import.reddit;
 ```
 Oto wyniki: 
@@ -101,18 +101,18 @@ http://geojson.io.
 Wykonałem mapkę 34 stadionów w Polsce, na których swoje mecze rozgrywają lokalne drużyny.  [Mapka Stadionów](https://github.com/Oski91/no_sql/blob/master/stadiony.geojson). Kolorem żółtym oznaczyłem dużyny występujące w Ekstraklasie, a kolorem niebieskim drużyny występujące w pierwsze lidze.
 
 Bazę danych zaimportowałem do MongoDB poleceniem:
-```
+```javascript
     mongoimport -c stadiony5 < C:\stadiony.json
 ```
 
 Przykładowy rekord wygląda następująco. Sprawdziem to poleceniem:
 
-```
+```javascript
 db.stadiony5.findOne()
 ```
 
 Rekord: 
-```
+```javascript
 {
         "_id" : ObjectId("5672d410a1d0f12300c804af"),
         "type" : "Feature",
@@ -134,13 +134,13 @@ Rekord:
 ```
 
 Dodałem geo-indexy poleceniem: 
-```
+```javascript
 db.stadiony5.ensureIndex({loc : "2dsphere"})
 ```
 ### Point
 
 Załóżmy, że do Warszawy przyjeżdża osoba zza granicy i chce obejrzeć mecz ligi polskiej. Dzięki poleceniu: 
-```
+```javascript
 db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 100 / 3963.2 ] } } } )
 ```
 możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
@@ -149,7 +149,7 @@ Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geoj
 
 
 Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem miasto Łódź.
-```
+```javascript
 db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 19.4561, 51.7686], 100 / 3963.2 ] } } } )
 ```
 
@@ -159,7 +159,7 @@ Wyniki wyglądają następująco : [Mapka](https://github.com/Oski91/no_sql/blob
 Stworzyłem kształt wojwództwa pomorskiego [Pomorskie](https://github.com/Oski91/no_sql/blob/master/polygonPomorskie.geojson)
 
 Za pomoca polygonu chciałbym sprawdzić jakie stadiony znajdują się w województwie pomorskim. Oto zapytanie do MongoDB: 
-```
+```javascript
 db.stadiony5.find({loc: {$geoWithin: {$geometry: {type: "Polygon", 
 coordinates: [ [ [ 16.72119140625, 54.56250772767092], [16.7431640625, 54.482804559582554] ... ]]]}}}})
  ```
