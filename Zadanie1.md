@@ -180,6 +180,7 @@ Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwie
 
 Po wykonaniu zapytania:
 ```javascrpit
-db.stadiony5.find({loc: {$geoIntersects: {$geometry: {type: "LineString", coordinates: [18.94866943359375, 54.3541553799043], ... )
+db.stadiony5.find({loc: {$geoIntersects: {$geometry: {type: "LineString", 
+coordinates: [18.94866943359375, 54.3541553799043], ... )
 ```
 w MongoDB nie zostały zwrócone żadne rekordy, ani żaden błąd.
