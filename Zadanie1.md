@@ -144,6 +144,7 @@ Załóżmy, że do Warszawy przyjeżdża osoba zza granicy i chce obejrzeć mecz
 db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 100 / 3963.2 ] } } } )
 ```
 możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
+
 Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
 
 
