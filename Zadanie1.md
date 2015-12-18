@@ -178,6 +178,8 @@ Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.ge
 
 Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki [Wisła](https://github.com/Oski91/no_sql/blob/master/Wisla.geojson).
 
+<script src="https://embed.github.com/view/geojson/Oski91/no_sql/blob/master/Wisla.geojson"></script>
+
 Po wykonaniu zapytania:
 ```javascrpit
 db.stadiony5.find({loc: {$geoIntersects: {$geometry: {type: "LineString", 
