@@ -172,6 +172,6 @@ Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wi
 Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.geojson)
 
 
-### Line-String
+### LineString
 
-TODO
+Za pomocą serwisu [geojson.io](www.geojson.io) utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki Wisła.
