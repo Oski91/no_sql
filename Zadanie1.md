@@ -177,3 +177,9 @@ Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.ge
 ### LineString
 
 Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki [Wisła](https://github.com/Oski91/no_sql/blob/master/Wisla.geojson).
+
+Po wykonaniu zapytania:
+```javascrpit
+db.stadiony5.find({loc: {$geoIntersects: {$geometry: {type: "LineString", coordinates: [18.94866943359375, 54.3541553799043], ... )
+```
+w MongoDB nie zostały zwrócone żadne rekordy, ani żaden błąd.
