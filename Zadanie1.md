@@ -100,6 +100,8 @@ Do utworzenia mapy GeoJson wykorzystałem narzędzie, które znalazłem pod adre
 http://geojson.io.
 Wykonałem mapkę 34 stadionów w Polsce, na których swoje mecze rozgrywają lokalne drużyny.  [Mapka Stadionów](https://github.com/Oski91/no_sql/blob/master/stadiony.geojson). Kolorem żółtym oznaczyłem dużyny występujące w Ekstraklasie, a kolorem niebieskim drużyny występujące w pierwsze lidze.
 
+Plik źródłowy ze stadionami: [Link](https://github.com/Oski91/no_sql/blob/master/stadiony%C5%B9R%C3%93D%C5%81O.json)
+
 Bazę danych zaimportowałem do MongoDB poleceniem:
 ```javascript
     mongoimport -c stadiony5 < C:\stadiony.json
