@@ -43,9 +43,8 @@ To polecenie pokazuje statystyki kolekcji danych w bazie "reddit". Widzimy międ
 ### Import do bazy PostreSQL
 Import do PostgreSQL w wersji 9.4. 
 Wykorzystałem tę samą bazę danych co w przypadku MongoDB. Do zaimprotowania plików .json do bazy danych wykorzystałem narzędznie PGFutter, które znalazłem na GitHubie. 
-```javascript
 https://github.com/lukasmartinelli/pgfutter
-```
+
 Import rozpocząłem poleceniem:
 ```javascript
 pgfutter_windows_amd64.exe --pw "123qq" json "reddit.json"
