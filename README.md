@@ -18,5 +18,5 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 |Procesor              | Intel Core i5-4460 3.20 GHz, 4 rdzenie     |
 |Liczba rdzeni         | 4 rdzenie                                  |
 |Pamięć RAM            | 8 GB DDR3, 1600 MHz                        |
-|Dysk Twardy           | Kingston SSD 120 GB,                       |
-Prędkość zapisu/odczytu| 450 MB/s                                   |
+|Dysk Twardy           | Kingston SSD 120 GB,  450 MB/s             |
+
