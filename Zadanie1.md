@@ -12,6 +12,7 @@ mongoimport --db reddit --collection redditColl  <  C:\RC_2015-01.json
 ```
 
 *Użycie zasobów komputera poczas importu bazy:*
+
 ![](http://i.imgur.com/gzrRPTB.jpg)
 
 Import trwał 26 minut. Zaimportowano 53 851 542 rekordy.
