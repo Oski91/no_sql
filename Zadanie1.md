@@ -45,12 +45,7 @@ pgfutter_windows_amd64.exe --pw "123qq" json "reddit.json"
 Polecenie to uruchamia narzędzie PGFutter. --pw (password) zostało użyte, ponieważ dostęp do PostgreSQL jest możliwy tylko za pomocą hasła (w moim przypadku "123qq"). "json" jest parametrem, który informuje narzędzie o wczytaniu pliku .json.
 
 *Użycie zasobów komputera podczas importu:*
-
-- *Procesor*
-![](http://i.imgur.com/xRjwvBL.png)
-
-- *Pamięć*
-![](http://i.imgur.com/hZGupH2.png)
+![](http://i.imgur.com/FnipNgu.jpg)
 
 Dysk w czasie importu został wykorzystywany w różnym stopniu. Na początku było to 50%, potem 100%. Skoki wykorzystywania dysku były przez cały czas importu. Wachały się między 50% a 100%.
 
