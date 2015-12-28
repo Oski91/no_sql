@@ -12,16 +12,9 @@ mongoimport --db reddit --collection redditColl  <  C:\RC_2015-01.json
 ```
 
 *Użycie zasobów komputera poczas importu bazy:*
+![](http://i.imgur.com/gzrRPTB.jpg)
 
-- *Procesor:*
-![](http://i.imgur.com/v0rVseE.jpg)
-
-- *Dysk Twardy:*
-![](http://i.imgur.com/mQfcRjk.jpg)
-
-Niestety nie wykonałem zrzutu ekranu wykorzystania zasobów pamięci RAM. Na załączonych zrzutach ekranowych widać, że pamięć RAM była wykorzystana w 97%. Przedstawione dane utrzymywały się przez większość czasu procesu importowania bazy do MongoDB. Występowały niewielkie wahania (+/- 5%).
-
-Importowanie bazy rozpoczęło się o godzinie 17:01, a zakończyło o godzinie 17:27. Import trwał więc 26 minut. Zaimportowano 53 851 542 rekordy.
+Import trwał 26 minut. Zaimportowano 53 851 542 rekordy.
 
 *Screen z MongoDB:*
 ![](http://i.imgur.com/NVYCVpI.jpg)
