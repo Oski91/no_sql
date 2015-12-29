@@ -161,6 +161,7 @@ db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [Lodz, 100 / 3963.2 
 ```
 
 *Wyniki wyglądają następująco:*
+
 ![](http://i.imgur.com/bEJXNLw.png)
 
 [Mapka](https://github.com/Oski91/no_sql/blob/master/100milLodz.geojson)
@@ -180,12 +181,16 @@ coordinates: [ [ [ 16.72119140625, 54.56250772767092], [16.7431640625, 54.482804
  ```
  
  *Wyniki prezentują się następująco:*
+ 
  [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
+ 
  
  ![](http://i.imgur.com/B2FLGve.jpg)
 
 
-Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta [Mapka](https://github.com/Oski91/no_sql/blob/master/polygonTrojmiasto.geojson)
+Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta
+
+[Mapka](https://github.com/Oski91/no_sql/blob/master/polygonTrojmiasto.geojson)
 
 ![](http://i.imgur.com/VvfoNRg.jpg)
 
