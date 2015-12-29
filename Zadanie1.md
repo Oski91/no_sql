@@ -139,7 +139,9 @@ db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 
 ```
 możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
 
-Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
+*Wyniki:*
+![](http://i.imgur.com/7pQYhTj.png)
+[Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
 
 
 Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem miasto Łódź.
@@ -147,10 +149,14 @@ Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem mia
 db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 19.4561, 51.7686], 100 / 3963.2 ] } } } )
 ```
 
-Wyniki wyglądają następująco : [Mapka](https://github.com/Oski91/no_sql/blob/master/100milLodz.geojson)
+*Wyniki wyglądają następująco:*
+![](http://i.imgur.com/bEJXNLw.png)
+[Mapka](https://github.com/Oski91/no_sql/blob/master/100milLodz.geojson)
 
 ### Polygon
 Stworzyłem kształt wojwództwa pomorskiego [Pomorskie](https://github.com/Oski91/no_sql/blob/master/polygonPomorskie.geojson)
+
+![](http://i.imgur.com/DWZuTYk.jpg)
 
 Za pomoca polygonu chciałbym sprawdzić jakie stadiony znajdują się w województwie pomorskim. Oto zapytanie do MongoDB: 
 ```javascript
@@ -158,17 +164,23 @@ db.stadiony5.find({loc: {$geoWithin: {$geometry: {type: "Polygon",
 coordinates: [ [ [ 16.72119140625, 54.56250772767092], [16.7431640625, 54.482804559582554] ... ]]]}}}})
  ```
  
- Wyniki prezentują się następująco: [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
+ *Wyniki prezentują się następująco:*
+ [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
+ ![](http://i.imgur.com/B2FLGve.jpg)
 
 
 Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta [Mapka](https://github.com/Oski91/no_sql/blob/master/polygonTrojmiasto.geojson)
+![](http://i.imgur.com/VvfoNRg.jpg)
 
-Wyniki: [Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.geojson)
-
+*Wyniki:* 
+[Mapka](https://github.com/Oski91/no_sql/blob/master/WynikiTrojmiasto.geojson)
+![](http://i.imgur.com/LJwAkuX.jpg)
 
 ### LineString
 
 Za pomocą serwisu http://geojson.io utworzyłem linestringa, który jest odzwierciedleniem przebiegu rzeki [Wisła](https://github.com/Oski91/no_sql/blob/master/Wisla.geojson).
+
+![](http://i.imgur.com/hM0kHkR.jpg)
 
 <script src="https://embed.github.com/view/geojson/Oski91/no_sql/blob/master/Wisla.geojson"></script>
 
