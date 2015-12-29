@@ -135,7 +135,12 @@ db.stadiony5.ensureIndex({loc : "2dsphere"})
 
 Załóżmy, że do Warszawy przyjeżdża osoba zza granicy i chce obejrzeć mecz ligi polskiej. Dzięki poleceniu: 
 ```javascript
-db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 21.020, 52.259], 100 / 3963.2 ] } } } )
+var Warszawa = {
+               "type": "Point",
+               "coordinates":[ 21.020, 52.259]
+               }
+
+db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [Warszawa, 100 / 3963.2 ] } } } )
 ```
 możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
 
@@ -146,7 +151,12 @@ możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
 
 Wykonałem to samo zapytanie, ale z innymi koordynatami. Tym razem wybrałem miasto Łódź.
 ```javascript
-db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [[ 19.4561, 51.7686], 100 / 3963.2 ] } } } )
+var Lodz = {
+           "type":"Point",
+           "coordinates":[ 19.4561, 51.7686]
+           }
+
+db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [Lodz, 100 / 3963.2 ] } } } )
 ```
 
 *Wyniki wyglądają następująco:*
