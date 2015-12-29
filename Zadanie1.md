@@ -146,6 +146,7 @@ możemy sprawdzić, który stadion jest nabliżej Warszawy w promieniu 100 mil.
 
 *Wyniki:*
 ![](http://i.imgur.com/7pQYhTj.png)
+
 [Mapka](https://github.com/Oski91/no_sql/blob/master/100milWarszawa.geojson)
 
 
@@ -161,12 +162,16 @@ db.stadiony5.find ( {loc : { $geoWithin : { $centerSphere : [Lodz, 100 / 3963.2 
 
 *Wyniki wyglądają następująco:*
 ![](http://i.imgur.com/bEJXNLw.png)
+
 [Mapka](https://github.com/Oski91/no_sql/blob/master/100milLodz.geojson)
 
 ### Polygon
-Stworzyłem kształt wojwództwa pomorskiego [Pomorskie](https://github.com/Oski91/no_sql/blob/master/polygonPomorskie.geojson)
+Stworzyłem kształt wojwództwa pomorskiego
+
+[Pomorskie](https://github.com/Oski91/no_sql/blob/master/polygonPomorskie.geojson)
 
 ![](http://i.imgur.com/DWZuTYk.jpg)
+
 
 Za pomoca polygonu chciałbym sprawdzić jakie stadiony znajdują się w województwie pomorskim. Oto zapytanie do MongoDB: 
 ```javascript
@@ -176,10 +181,12 @@ coordinates: [ [ [ 16.72119140625, 54.56250772767092], [16.7431640625, 54.482804
  
  *Wyniki prezentują się następująco:*
  [Mapka](https://github.com/Oski91/no_sql/blob/master/wynikiPomorskie.geojson)
+ 
  ![](http://i.imgur.com/B2FLGve.jpg)
 
 
 Załóżmy, że przyleciał turysta (groundhopper) do trójmiasta i chciałby wiedzieć gdzie i ile jest stadionów na dwóch najwyższych szczeblach rozgrywkowych w Polsce. Wykorzystałem do tego polygon Trójmiasta [Mapka](https://github.com/Oski91/no_sql/blob/master/polygonTrojmiasto.geojson)
+
 ![](http://i.imgur.com/VvfoNRg.jpg)
 
 *Wyniki:* 
