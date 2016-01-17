@@ -51,12 +51,14 @@ Wynik zapytania:
 
 ###Zapytanie o 3 najlepszych autorów postów:
 ```
-
+ db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score"}}}, {$limit: 3} ], {allowDiskUse: true})
 ```
 
 Wynik zapytania:
 ```js
-
+{ "_id" : "---", "score" : 4 }
+{ "_id" : "-------------------x", "score" : 1 }
+{ "_id" : "------------------__", "score" : 136 }
 ```
 
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
