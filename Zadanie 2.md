@@ -51,15 +51,14 @@ Wynik zapytania:
 
 ###Zapytanie o 3 najlepszych autorów postów:
 ```
- db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score"}}},
- {$limit: 3} ], {allowDiskUse: true})
+ db.redditColl.aggregate([ {$group: { _id: "$author", score: { $sum: "$score"} } }, { $sort: {score: -1}}, {$limit: 3}], {allowDiskUse: true})
 ```
 
 Wynik zapytania:
 ```js
-{ "_id" : "---", "score" : 4 }
-{ "_id" : "-------------------x", "score" : 1 }
-{ "_id" : "------------------__", "score" : 136 }
+{ "_id" : "[deleted]", "score" : 7486663 }
+{ "_id" : "AutoModerator", "score" : 185250 }
+{ "_id" : "PainMatrix", "score" : 164494 }
 ```
 
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
