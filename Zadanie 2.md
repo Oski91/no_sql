@@ -37,7 +37,8 @@ db.redditColl.findOne()
 
 ###Zapytanie o 3 najgorzyszych autorów postów: 
 ```js
-db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },  { $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
+db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },
+{ $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
 ```
 
 Wynik zapytania:
