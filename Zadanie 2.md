@@ -51,7 +51,8 @@ Wynik zapytania:
 
 ###Zapytanie o 3 najlepszych autorów postów:
 ```
- db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score"}}}, {$limit: 3} ], {allowDiskUse: true})
+ db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score"}}},
+ {$limit: 3} ], {allowDiskUse: true})
 ```
 
 Wynik zapytania:
