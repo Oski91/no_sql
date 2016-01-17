@@ -2,12 +2,12 @@
 
 Do zadania egzaminacyjnego wykorzystałem bazę reddit z zadania 1. Baza zawiera ponad 50 milionów rekordów.
 
-Aby sprawdzić przykładowy rekord użyłem zapytania:
+###Aby sprawdzić przykładowy rekord użyłem zapytania:
 ```js
 db.redditColl.findOne()
 ```
 
-Przykładowy rekord wygląda następująco: 
+###Przykładowy rekord wygląda następująco: 
 ```js
 {
         "_id" : ObjectId("569a2dcf0545e456e89600a8"),
@@ -34,3 +34,29 @@ Przykładowy rekord wygląda następująco:
         "edited" : false
 }
 ```
+
+###Zapytanie o 3 najgorzyszych autorów postów: 
+```js
+db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },  { $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
+```
+
+Wynik zapytania:
+```js
+{ "_id" : "wutshappening", "score" : -8066 }
+{ "_id" : "dwimback", "score" : -5241 }
+{ "_id" : "salmonhelmet", "score" : -3499 }
+```
+
+
+###Zapytanie o 3 najlepszych autorów postów:
+```
+
+```
+
+Wynik zapytania:
+```js
+
+```
+
+###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
+![](http://i.imgur.com/xWgWm85.jpg)
