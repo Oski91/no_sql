@@ -95,10 +95,14 @@ Wynik zapytania:
 
 ###Zapytanie o ilość komentarzy użytkownika "PainMatrix": 
 ```js
-
+db.redditColl.aggregate ([ {$match: {author: "PainMatrix"} }, 
+{$group: { _id: "$author", count: {$sum:1}}} ])
 ```
 
 Wynik zapytania: 
+```js
+{ "_id" : "PainMatrix", "count" : 1109 }
+```
 
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
 ![](http://i.imgur.com/xWgWm85.jpg)
