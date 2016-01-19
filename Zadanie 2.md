@@ -86,5 +86,19 @@ Wynik zapytania:
 { "_id" : null, "count" : 5025 }
 ```
 
+###Zapytanie o ilość komentarzy osób, które nie podały płci:
+```js
+
+```
+
+Wynik zapytania: 
+
+###Zapytanie o ilość komentarzy użytkownika "PainMatrix": 
+```js
+
+```
+
+Wynik zapytania: 
+
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
 ![](http://i.imgur.com/xWgWm85.jpg)
