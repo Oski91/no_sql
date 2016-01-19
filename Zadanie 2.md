@@ -86,12 +86,20 @@ Wynik zapytania:
 { "_id" : null, "count" : 5025 }
 ```
 
+
 ###Zapytanie o ilość komentarzy osób, które nie podały płci:
 ```js
-
+db.redditColl.aggregate( [ {$match: {author_flair_text: null} }, 
+{ $group: { _id: null, count: {$sum: 1}}}])
 ```
 
 Wynik zapytania: 
+```js
+{ "_id" : null, "count" : 29062486 }
+```
+
+Wszystkich rekordów w bazie jest 53 851 542, a postów które nie posiadają określonej płci jest 29 062 486. Stanowi to 53,96%. 
+
 
 ###Zapytanie o ilość komentarzy użytkownika "PainMatrix": 
 
@@ -105,5 +113,9 @@ Wynik zapytania:
 { "_id" : "PainMatrix", "count" : 1109 }
 ```
 
+Użytkownik na pozycji 3 w ilości zebranych pozytywnych ocen napisał 1109 postów.
+
+
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
 ![](http://i.imgur.com/xWgWm85.jpg)
+
