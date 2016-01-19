@@ -50,8 +50,8 @@ Wynik zapytania:
 
 
 ###Zapytanie o 3 najlepszych autorów postów:
-```
- db.redditColl.aggregate([ {$group: { _id: "$author", score: { $sum: "$score"} } },
+```js
+db.redditColl.aggregate([ {$group: { _id: "$author", score: { $sum: "$score"} } },
  { $sort: {score: -1}}, {$limit: 3}], {allowDiskUse: true})
 ```
 
@@ -60,6 +60,30 @@ Wynik zapytania:
 { "_id" : "[deleted]", "score" : 7486663 }
 { "_id" : "AutoModerator", "score" : 185250 }
 { "_id" : "PainMatrix", "score" : 164494 }
+```
+
+###Zapytanie o ilość komentarzy mężczyzn: 
+```js
+db.redditColl.aggregate([ {$match: { author_flair_text: "Male" } }, 
+{ $group: { _id: null, count: {$sum: 1} } } ])
+```
+
+Wynik zapytania: 
+```js
+{ "_id" : null, "count" : 26193 }
+```
+
+
+###Zapytanie o ilość komentarzy kobiet:
+```js
+db.redditColl.aggregate([ {$match: { author_flair_text: "Female" } }, 
+{ $group: { _id: null, count: {$sum: 1} } } ])
+```
+
+
+Wynik zapytania:
+```js
+{ "_id" : null, "count" : 5025 }
 ```
 
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
