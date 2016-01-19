@@ -1,4 +1,4 @@
-#Zadanie 2
+#Zadanie 2 - Aggregation Pipeline
 
 Do zadania egzaminacyjnego wykorzystałem bazę reddit z zadania 1. Baza zawiera ponad 50 milionów rekordów.
 
