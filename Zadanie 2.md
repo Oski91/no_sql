@@ -119,3 +119,4 @@ Użytkownik na pozycji 3 w ilości zebranych pozytywnych ocen napisał 1109 post
 ###Wykorzystanie zasobów komputera podczas wykonywania operacji agregacji.
 ![](http://i.imgur.com/xWgWm85.jpg)
 
+Podzespoły komputera były wykorzystywane intensywnie podczas wykonywania zapytań. Procesor był wykorzystywany w ponad 50% (każdy jego rdzeń), dysk miał wahania od 20% do 50% (przeważnie było to 40%). Pamięć RAM była wykorzystywana w 90%, będąc jednocześnie najbardziej wykorzystywanym podzespołem.
