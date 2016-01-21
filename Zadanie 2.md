@@ -1,6 +1,8 @@
 #Zadanie 2 - Aggregation Pipeline
 
 Do zadania egzaminacyjnego wykorzystałem bazę reddit z zadania 1. Baza zawiera ponad 50 milionów rekordów.
+Jako drivera do Mongo użyłem PyMongo, które znalazłem tutaj [PyMongo](https://docs.mongodb.org/ecosystem/drivers/python/).
+Zapytania wyglądają dokładnie tak samo.
 
 ###Aby sprawdzić przykładowy rekord użyłem zapytania:
 ```js
@@ -46,6 +48,14 @@ Wynik zapytania:
 { "_id" : "wutshappening", "score" : -8066 }
 { "_id" : "dwimback", "score" : -5241 }
 { "_id" : "salmonhelmet", "score" : -3499 }
+```
+
+Zapytanie w PyMongo:
+```js
+import pymongo
+client = pymongo.MongoClient("localhost", 27017)
+db = client.redditColl
+db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },  { $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
 ```
 
 
