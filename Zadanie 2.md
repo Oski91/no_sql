@@ -55,7 +55,8 @@ Zapytanie w PyMongo:
 import pymongo
 client = pymongo.MongoClient("localhost", 27017)
 db = client.redditColl
-db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },  { $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
+db.redditColl.aggregate([ { $group: { _id: "$author", score: {$sum: "$score" } } },  
+{ $sort: {score: 1} }, { $limit: 3} ], {allowDiskUse: true})
 ```
 
 
