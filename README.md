@@ -3,7 +3,7 @@ Rozwiązania zadań z przedmiotu *Bazy NoSQL*:
 1. [Zaliczenie](https://github.com/Oski91/no_sql/blob/master/Zadanie1.md):
  - [X] EDA
 1. [Egzamin](https://github.com/Oski91/no_sql/blob/master/Zadanie%202.md):
- - [ ] Aggregation Pipeline
+ - [X] Aggregation Pipeline
  - [ ] MapReduce
 
 
