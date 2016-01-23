@@ -132,5 +132,5 @@ Użytkownik na pozycji 3 w ilości zebranych pozytywnych ocen napisał 1109 post
 
 Podzespoły komputera były wykorzystywane intensywnie podczas wykonywania zapytań. Procesor był wykorzystywany w ponad 50% (każdy jego rdzeń), dysk miał wahania od 20% do 50% (przeważnie było to 40%). Pamięć RAM była wykorzystywana w 90%, będąc jednocześnie najbardziej wykorzystywanym podzespołem.
 
-Bieżąca długość kolejki dysku to liczba oczekujących żądań na dysku w momencie zbierania danych o wydajności. Oznacza to, że dysk fizyczny nie może obsługiwać żądań operacji we/wy tak szybko, jak są one generowane.
+Długość kolejki dysku to liczba oczekujących żądań na dysku w momencie zbierania danych o wydajności. Oznacza to, że dysk fizyczny nie może obsługiwać żądań operacji we/wy tak szybko, jak są one generowane.
 Skoki do 5 (w skali od 0 do 5) wystąpiły, gdy wysłałem zapytanie do MongoDB. Jednakże licznik ten może nieco zawyżać aktywność dysku.
